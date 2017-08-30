@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" class="no-js not-ie9" lang="en"><!--<![endif]--><head>
+			<!-- Google Tag Manager -->
+
+<iframe style="position: absolute; top: -10000px; left: -1000px;"></iframe><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TTZNPKG"></script><script>
+
+	var userId = 760573498;
+	dataLayer = [{'userId': userId}];
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TTZNPKG');
+</script>
+<!-- End Google Tag Manager -->
+            <!-- Start Meta -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+            <!-- End Meta -->
+
+            
+            <!-- Start License for Roboto Web Font -->
+            <link href="//cdn.ml-static.com/site/static/global/fonts/Google-Android-License.txt" rel="license">
+            <!-- End License for Roboto Web Font -->
+
+            <!-- Start Title -->
+            <title>Data Search and Validation</title>
+            <!-- End Title -->
+
+
+            
+            
+                <link href="//css.ml-static.com/site//wro/pub-identity-onboarding.css?v=4.87.0-E-10" rel="stylesheet">
+            
+
+            
+            
+                <script src="//css.ml-static.com/site//wro/pub-identity-onboarding.js?v=4.87.0-E-10"></script>
+            
+            
+            <script>
+                var stepTM;
+                var lastX;
+                var touchStatus;
+                var touched = false;
+                var stepBeforeLock = '';
+                var currentStep = '';
+                var oldStep = '';
+                var stepsTiming = new Array();
+                var nextPage = 0;
+                var flowID = 'identity_flow1';
+                var flowConfig;
+                var adl = '699907598';
+                 flowConfig = {"id":"identity_flow1","titleString":"","backgroundImage":"/site/static/onboarding/img/ob-desktop-sm.png","pages":[{"url":"/site/ob/identity_flow1/0/7/cadillacProfileWithDataFields.view","timeInMS":30000,"pageParams":{"cadillacProfile":"FILLED_BY_BACKEND referenced by ${cadillacProfile}","dataFields":"Arrest Records,Court Records,Sexual Offender Status,Lawsuits&#44; Liens & Bankruptcies,Address&#44; Phone & Email,Financial Information,Property Records,Photos,Social Posts,Personal Reviews & References,Education & Work History,Relatives & Associates","dataFieldsIcon":"negativeInformationItemDKLock,negativeInformationItemDKLock,negativeInformationItemDKLock,negativeInformationItemDKLock,negativeInformationItemDKLock,negativeInformationItemDKCheck,negativeInformationItemDKCheck,negativeInformationItemDKCheck,negativeInformationItemDKCheck,negativeInformationItemDKCheck,negativeInformationItemDKCheck,negativeInformationItemDKLock,negativeInformationItemDKCheck,negativeInformationItemDKLock","dataFieldsHeader":"People are viewing the following information that affects your reputation.","rightSectionHeader":"Scanning the internet","leftSectionHeader":"Only viewable on a secure connection","rightSectionContentList":"{}MyLife, Inc.{}Privacy & Reputation Service{}MyLife...{}Secure Connection...{}Connected...{}Connection Established{}We Check...{}Facebook Sources{}Twitter Sources{}Online Dating Profile Sources{}We Scour...{}County Databases{}Federal Databases{}State Databases{}Perform Online Background Checks{}Criminal Background Check{}30 Different Data Points{}Accurate and up-to-date information{}Arrest Records{}Sex Offenders{}Traffic Records{}License{}Online Activity{}Traffic Offenses{}Misdemeanors{}Birth Records{}Address Information{}Relatives{}Court Documents{}Phone Numbers{}Felonies{}Gathering Results{}Complete Progress Bar{}Redirect after completion{}","headerText":"Gathering Your Background Report & Reputation Score that's Public"},"componentType":"HTTP_REQUEST","progressStep":"WHAT","progressPercentage":0,"progressStepCaption":"What's Exposed","delayInMS":5000},{"url":"/site/ob/identity_flow1/1/7/testimoniesWithMainSection.view","timeInMS":20000,"pageParams":{"header":"We'll Help You Correct & Improve Your Background Report & Reputation Score","loaderText":"Processing scan details...","imageUrl":"/site/static/onboarding/img/reputationImg.png","starImageUrl":"/site/static/onboarding/img/reputationImgSt.png","leftSectionText":"<p class='main-heading'>Everyone Needs to Manage Their Reputation</p><ul class='item-list'><li><p class='header'> Anyone Employed Wanting a Better Job</p></li><li><p class='header'>Anyone in Sales, Consulting or Services</p></li><li><p class='header'>Singles that are Dating</p></li><li><p class='header'>Anyone Looking to Rent <span class='thinner'>(including AirBnB)</span></p></li></ul><p class='end-text'>If you're one of these people, you are being searched for and investigated EVERY DAY and it's critical that you manage what's public and request positive reviews from others to improve your Reputation Score.</p>","testimonyHeader":"Member Testimonials","testimoniesId":"testimonies1"},"componentType":"HTTP_REQUEST","progressStep":"WHAT","progressPercentage":0,"progressStepCaption":"What's Exposed","delayInMS":0},{"url":"/site/ob/identity_flow1/2/7/mylifeWsfyDbmDataProviders.view","timeInMS":30000,"pageParams":{"providerIconBaseDir":"/site/static/prr/img/provider-logos","providerIconUrls":"411.png,411Locate.png,Anywho.png,Archives.png,DexKnows.png,InstantCheckmate.png,Intelius.png,Lookup.png,PeekYou.png,PeopleFinder.png,Radaris.png,Spoke.png","pagesSearchedCount":"102536943","siteCount":"4","breachesCount":"220385281","accountsBreachedCount":"9","header":"Scanning For Sites Exposing Your Private Information","subHeader":"See below for summary about actual exposed info"},"componentType":"HTTP_REQUEST","progressStep":"WHERE","progressPercentage":25,"progressStepCaption":"Where It's Exposed","delayInMS":1000},{"url":"/site/ob/identity_flow1/3/7/testimoniesWithMainSection.view","timeInMS":20000,"pageParams":{"header":"Remove Your Exposed Background Info from Other Sites to Protect Your Privacy","loaderText":"Processing scan details...","imageUrl":"/site/static/onboarding/img/privacyLock.png","leftSectionText":"See and monitor sites exposing your Background Report and other personal details. Remove your records with one click from over 50 sites. Receive alerts when new background info appears or is stolen in a breach.","testimonyHeader":"Member Testimonials","testimoniesId":"testimonies2"},"componentType":"HTTP_REQUEST","progressStep":"WHERE","progressPercentage":25,"progressStepCaption":"Where It's Exposed","delayInMS":0},{"url":"/site/ob/identity_flow1/4/7/wsfyTeaser.view","timeInMS":30000,"pageParams":{"header":"Finding Who's Searching for You & Checking Your Background<p class='secondary-text'>There are 300 million people searches every day.  People have been looking for you.</p>","subHeader":"Potential employers, friends & other people are looking at your Background Report and public details.","wsfyMaleCount":"8","wsfyFemaleCount":"12","wgyCount":"34","wsfyResultsHeader":"People Accessing Your Info.","hasWsfyResults":"true","wsfyResults":"BE to put into request as ${wsfyResults}","nullCaseCopy":"<div class='wsfyProcessed nullCase'><h4 class='resultsHeader'>Stay in the loop</h4><img src='/site/static/onboarding/img/wsfyWM.png' alt=''><h5> MyLife monitors search engines and sends you alerts whenever someone searches for you. Details about these people are provided.</h5></div>"},"componentType":"HTTP_REQUEST","progressStep":"WHO","progressPercentage":50,"progressStepCaption":"Who's Accessing","delayInMS":7000},{"url":"/site/ob/identity_flow1/5/7/testimoniesWithMainSection.view","timeInMS":20000,"pageParams":{"header":"Only MyLife Monitors Who's Searching for You & Checking Your Background","loaderText":"Processing scan details...","imageUrl":"/site/static/onboarding/img/hands.png","leftSectionText":"We'll alert you when anyone checks your Background Report & Reputation Score, and show you who they are so you can make valuable connections including employment opportunities and new valuable relationships - plus help prevent identity theft","testimonyHeader":"Member Testimonials","testimoniesId":"testimonies3"},"componentType":"HTTP_REQUEST","progressStep":"WHO","progressPercentage":75,"progressStepCaption":"Who's Accessing","delayInMS":0},{"url":"/site/ob/identity_flow1/6/7/reportSummary.view","timeInMS":0,"pageParams":{"header":"Summary of Everything We Found for You that's Public","subSection1Header":"What background details may be exposed:","subSection1AddressCount":"filled by BE","subSection1PhoneNumberCount":"filled by BE","subSection1RelativeCount":"filled by BE","subSection2Header":"Where your Background Report & other info is sold: <span><b class='red'>HIGH</b> risk</span>","subSection2WebsiteCount":"filled by BE","subSection2DataBreachesCount":"filled by BE","subSection3Header":"Who's accessing your Background Report & other info:","subSection3WsfyMaleCount":"filled by BE","subSection3WsfyFemaleCount":"filled by BE","subSection3WgyCount":"filled by BE","buttonText":"Continue to Details","buttonUrl":"/site/idp-bgc-purchase.view?adl="},"componentType":"HTTP_REQUEST","progressStep":"REPORT_READY","progressPercentage":25,"progressStepCaption":"Your Report","delayInMS":0}]}
+                var timerStatus = true;
+                var timerStatusSteps = true;
+                var strPSOCIAL_API_URI = "/psocial.v2/connect/facebook?whyReg=";
+                var wsfyProvidersStep = true;
+                var domainName = window.location.hostname.split('.')[1].toLowerCase();
+                var onboardingRequestParameters = '';
+
+                
+                
+
+                
+                    
+                    
+                        
+                        
+                    
+                
+                
+                var hostname = 'https://www.mylife.com';
+            </script>
+            
+            <link rel="stylesheet" type="text/css" href="//css.ml-static.com/site/static/global/css/font-awesome.css">
+            <script src="/site/static/global/js/jquery.shuffleLetters.js"></script>
+        <script src="//dev.visualwebsiteoptimizer.com/j.php?a=248150&amp;u=https%3A%2F%2Fwww.mylife.com%2Fsite%2Fob%2Fidentity_flow1%2Fidentity-premium.view&amp;r=0.8324134260801493" type="text/javascript"></script></head>
+
+        <body class="identity-onboarding identity_flow1  extraSmallDevice safari mobile" style="background-image: url(https://www.mylife.com/site/static/onboarding/img/ob-desktop-sm.png); background-size: cover; background-attachment: fixed; -webkit-background-size: cover; background-position: center center; background-repeat: no-repeat no-repeat;">
+            <!-- Google Tag Manager (noscript) -->
+<noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTZNPKG"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<!-- End Google Tag Manager (noscript) -->
+            <a class="exit-handler-x-btn"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navbar">
+    <img src="/site/static/onboarding/img/whiteLogo.png" alt="logo">
+</div>
+            
+                <h2 class="onboarding-title"></h2>
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" name="idHolder" value="760573498" id="idHolder">
+<div id="globalProgressBar">
+    <div class="gpbBlackLines">
+    <div class="gpbSteps gpbStepWHAT processing"><h5 class="visible-xs caption-xs">STEP 1</h5><div class="stepPoint"></div><div class="gpbText">What's Exposed</div></div><div class="gpbLines gpbLineWHAT "><div class="gpbBlackLine gpbBLStepWHAT"></div><div class="gpbWhiteLine gpbWHStepWHAT" style="animation: progressBarLoading-Anm 55s linear forwards;"></div></div><div class="gpbSteps gpbStepWHERE"><h5 class="visible-xs caption-xs">STEP 2</h5><div class="stepPoint"></div><div class="gpbText">Where It's Exposed</div></div><div class="gpbLines gpbLineWHERE "><div class="gpbBlackLine gpbBLStepWHERE"></div><div class="gpbWhiteLine gpbWHStepWHERE"></div></div><div class="gpbSteps gpbStepWHO"><h5 class="visible-xs caption-xs">STEP 3</h5><div class="stepPoint"></div><div class="gpbText">Who's Accessing</div></div><div class="gpbLines gpbLineWHO "><div class="gpbBlackLine gpbBLStepWHO"></div><div class="gpbWhiteLine gpbWHStepWHO"></div></div><div class="gpbSteps gpbStepREPORT_READY"><h5 class="visible-xs caption-xs">STEP 4</h5><div class="stepPoint"></div><div class="gpbText">Your Report</div></div></div>
+</div>
+<div class="components">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="stepComponent onboardingProfileWithDataFields">
+    <div class="childProgressBar">
+        <div class="childProgressBarLoader" style="width: 8%;"><span class="counter">8</span><span class="counterPR">%</span></div>
+        <script>
+//            setInterval(function(){
+//                var pbw = $('.childProgressBarLoader').width() / $('.childProgressBarLoader').parent().width() * 100 + 1;
+//                if (pbw < 100){
+//                    $('.childProgressBarLoader').width(pbw + '%');
+//                }
+//            },1000)
+        </script>
+    </div>
+    <div class="componentContent">
+        
+            <h2>Gathering Your Background Report &amp; Reputation Score that's Public</h2>
+            <div class="componentContent-detail">
+                <div class="ccdLeftSide col-sm-8">
+                    <div class="profileDetail">
+                        
+                            <div class="profileImage">
+                                <img src="/site/static/onboarding/img/profileImage.png" alt="">
+                            </div>
+                            <div class="profileInformation">
+                                <h4>eric duft, 37</h4>
+                                <h5>
+                                    
+                                        lake elsinore, CA
+                                    
+                                    
+                                
+                                </h5>
+                                <h5>
+                                    
+                                        
+                                            
+                                                james duft
+                                            ,
+                                            
+                                            
+                                        
+                                            
+                                                craig duft
+                                            ,
+                                            
+                                            
+                                        
+                                            
+                                                lauren duft
+                                            ,
+                                            
+                                            
+                                        
+                                            
+                                                nola duft
+                                            
+                                        
+                                    
+                                </h5>
+                            </div>
+                        
+                    </div>
+                    
+                        
+                        
+                            
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="negativeInformation">
+    <h4>People are viewing the following information that affects your reputation.</h4>
+    
+    
+    <script type="text/javascript">
+        var progressElementNum = 12;
+    </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems0"><span class="spinner negativeInformationItemDKLock"></span>Arrest Records</span>
+        <script type="text/javascript">
+            
+                
+                    setTimeout(function(){loadTextItems("#negativeInformationItems0",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},30000);
+                
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems1"><span class="spinner negativeInformationItemDKLock"></span>Court Records</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems1",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems2"><span class="spinner negativeInformationItemDKLock"></span>Sexual Offender Status</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems2",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems3"><span class="spinner negativeInformationItemDKLock"></span>Lawsuits, Liens &amp; Bankruptcies</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems3",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems4"><span class="spinner negativeInformationItemDKLock"></span>Address, Phone &amp; Email</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems4",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems5"><span class="spinner negativeInformationItemDKCheck"></span>Financial Information</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems5",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems6"><span class="spinner negativeInformationItemDKCheck"></span>Property Records</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems6",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems7"><span class="spinner negativeInformationItemDKCheck"></span>Photos</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems7",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems8"><span class="spinner negativeInformationItemDKCheck"></span>Social Posts</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems8",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems unblur" id="negativeInformationItems9"><span class="negativeInformationItemDKCheck done" style="opacity: 1;"></span>Personal Reviews &amp; References</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems9",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems10"><span class="spinner negativeInformationItemDKCheck"></span>Education &amp; Work History</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems10",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+        <span class="negativeInformationItems" id="negativeInformationItems11"><span class="spinner negativeInformationItemDKLock"></span>Relatives &amp; Associates</span>
+        <script type="text/javascript">
+            
+                
+                
+                    var tm = Math.floor((Math.random() * 30.0) + 1);
+                    setTimeout(function(){loadTextItems("#negativeInformationItems11",".spinner","done",'.childProgressBarLoader','.negativeInformationItems','.childProgressBarLoader .counter')},tm * 1000);
+                
+            
+
+        </script>
+    
+    <div class="lockedInformation"><i>Only viewable on a secure connection</i></div>
+</div>
+
+<style type="text/css">
+.negativeInformation h4{
+    font-family: robotoregular;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.negativeInformationItems{
+    display: inline-block;
+    width: 224px;
+    font-family: roboto;
+    font-size: 13px;
+    color: transparent;
+    text-shadow: 0px 0px 11px rgba(51,51,51,0.3);
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.smallDevice .negativeInformationItems{
+    width: 180px;
+}
+
+.smallDevice .search-preparing-report .negativeInformationItems{
+    width: 49%;
+    font-size: 18px;
+}
+
+.smallDevice.old-viewer .search-preparing-report .negativeInformationItems{
+    font-size: 14px;
+}
+
+.negativeInformationItems .spinner{
+    margin-right: 10px;
+}
+
+.done.negativeInformationItemDKLock:after{
+    content: "\0041";
+    font-family: 'onboarding';
+    display: inline-block;
+    color: #858585;
+    padding-left: 2px;
+    padding-right: 13px;
+    font-size: 10px;
+}
+
+.done.negativeInformationItemDKCheck:after{
+    content: "\0042";
+    font-family: 'onboarding';
+    display: inline-block;
+    color: #858585;
+    padding-left: 2px;
+    padding-right: 13px;
+    font-size: 10px;
+}
+
+.lockedInformation{
+    background: url("/site/static/onboarding/img/dklock.png") no-repeat 8px 8px;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 13px;
+    font-family: roboto;
+    color: #888;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.unblur{
+    color: #333333 !important;
+    text-shadow: 0 0 0 #fff !important;
+}
+</style>
+                        
+                    
+                </div>
+                <div class="ccdRightSide col-sm-4">
+                    <div class="privateInformation">
+                        <div class="privateInformationHeader">Scanning the internet <span class="spinner"></span></div>
+                        <div class="privateInformationItems">
+                            <div class="console fixBottom"><span class="crs">{MyLife:~}</span>MyLife, Inc.<br><span class="crs">{MyLife:~}</span>Privacy &amp; Reputation Service<br><span class="crs">{MyLife:~}</span>MyLife...<br><span class="crs">{MyLife:~}</span>Secure Connection...<br><span class="crs">{MyLife:~}</span>Connected...<br><span class="crs">{MyLife:~}</span>Connection Established<br><span class="crs">{MyLife:~}</span>We Check...<br><span class="crs">{MyLife:~}</span>Facebook Sources<br><span class="crs">{MyLife:~}</span>Twitter Sources<br><span class="crs">{MyLife:~}</span>Online Dating Profile Sources<br><span class="crs">{MyLife:~}</span>We Scour...<br><span class="crs">{MyLife:~}</span>County Databases<br><span class="crs">{MyLife:~}</span>Federal Databases<br><span class="crs">{MyLife:~}</span>State Databases<br><span class="crs">{MyLife:~}</span>Perform Online Background Checks<br><span class="crs">{MyLife:~}</span>Criminal Background Check<br><span class="crs">{MyLife:~}</span>30 Different Data Points<br><span class="crs">{MyLife:~}</span>Accurate and up-to-date information<br><span class="crs">{MyLife:~}</span>Arrest Records<br><span class="crs">{MyLife:~}</span>Sex Offenders<br><span class="crs">{MyLife:~}</span>Traffic Records<br><span class="crs">{MyLife:~}</span>License<br><span class="crs">{MyLife:~}</span>Online Activity<br><span class="crs">{MyLife:~}</span>Traffic Offe<span class="pntr">_</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p class="warning-box"><i class="fa fa-exclamation-circle" aria-hidden="true"></i><br class="visible-xs">Do not refresh, close, or click the back button until the scan is complete or your information will be lost.</p>
+
+
+<style type="text/css">
+    .warning-box{
+        text-align: center;
+        bottom: 0;
+        position: relative;
+        height: 50px;
+        background-color: #fdf9e1;
+        margin: 20px -20px -20px;
+        line-height: 50px;
+        font-family: roboto;
+        font-size: 14px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-top: 1px dashed #dedede;
+        display: none;
+    }
+
+    .pub_search_bgc_flow13 .warning-box, .search_bgc_flow13 .warning-box{
+        display: block;
+    }
+
+    .smallDevice.old-viewer .warning-box{
+        font-size: 10px;
+    }
+
+    .extraSmallDevice .warning-box{
+        position: fixed;
+        bottom: 0px;
+        height: 60px;
+        width: 100%;
+        border-radius: 0;
+        word-wrap: normal;
+        margin: 0px -18px;
+        line-height: 15px;
+        font-size: 12px;
+        padding: 0px 10px 0px 28px;
+    }
+
+    .warning-box i{
+        font-size: 24px;
+        color: #ed3300;
+        top: 3px;
+        position: relative;
+        margin-right: 8px;
+    }
+
+    .extraSmallDevice .warning-box i{
+        position: absolute;
+        left: 6px;
+        top: 15px;
+    }
+</style>
+<script type="text/javascript">
+        typingWriter('.console','{}MyLife, Inc.{}Privacy & Reputation Service{}MyLife...{}Secure Connection...{}Connected...{}Connection Established{}We Check...{}Facebook Sources{}Twitter Sources{}Online Dating Profile Sources{}We Scour...{}County Databases{}Federal Databases{}State Databases{}Perform Online Background Checks{}Criminal Background Check{}30 Different Data Points{}Accurate and up-to-date information{}Arrest Records{}Sex Offenders{}Traffic Records{}License{}Online Activity{}Traffic Offenses{}Misdemeanors{}Birth Records{}Address Information{}Relatives{}Court Documents{}Phone Numbers{}Felonies{}Gathering Results{}Complete Progress Bar{}Redirect after completion{}',30000,function(){
+            $('.privateInformationHeader').find('.spinner').fadeOut().remove();
+        });
+</script>
+
+</div>
+<script>
+    var ONBOARDING_MOUSE_LEAVE_REDIRECT_DELAY ='5000'
+    var isloggedin='true'
+</script>
+            <div id="loading"><h4>Loading, Please Wait...</h4><span class="spinner"></span></div>
+            
+
+
+
+    
+        
+        
+            
+        
+        
+        
+        
+        
+        
+        
+            
+                
+                
+                
+            
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+			
+				
+					
+				
+
+				
+			 
+
+		
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var currentPage = 'identity-premium.view';
+    var currentHostName = 'https://' + 'www.mylife.com';
+    var currentRequestUri = '/site/ob/identity_flow1/identity-premium.view';
+    var currentBranchName = 'site';
+    var currentIsLoggedin = 'true'
+    var currentIframeHeight = '';
+    var currentExitHandler = '';
+    var currentIdpBgcPurchase = '_vis_opt_exp_69_split'
+    var currentBgcPurchase = '_vis_opt_exp_73_split'
+    var currentRequestParameters = '';
+    var duplicateCurrentPage = false;
+    var currentEncDiscId = '';
+    var onboardingEncDiscId = '';
+        if(currentEncDiscId == '' && onboardingEncDiscId != ''){
+            var encDiscId = onboardingEncDiscId;
+        }
+
+    if(self!=top && window.parent.currentPage == currentPage){
+        var duplicateCurrentPage = true;
+    }
+    if (currentIframeHeight == 0 || currentIframeHeight == ''){
+        currentIframeHeight = $(window).height();
+        if(currentIframeHeight == 0) currentIframeHeight = '100%';
+    }
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length,c.length);
+            }
+        }
+        return "";
+    }
+</script>
+
+<iframe id="exit-handler-iframe" class="exit-handler-iframe hidden" name="exit-handler-iframe" src="" style="height: 460px;"></iframe>
+
+<style>
+    .exit-handler-iframe{
+        width: 100%;
+        /*min-height: 100%;*/
+        top: 0;
+        position: absolute;
+        border: 0;
+        z-index: 100;
+    }
+</style>
+
+<script>
+    var iframe = $('.exit-handler-iframe');
+    var mouseleft = false;
+    var oldMousePos = { x: -1, y: -1 };
+    var currentMousePos = { x: -1, y: -1 };
+    var isCurrentDeviceMobile = false;
+    var linkClicked = false;
+    var isHandlerAvailable = false;
+    var setOldMousePosTimer = 100;
+    var myBrowser = '';
+    var exitPaths = '';
+    var exitPathsLoading = '';
+
+    //Check if device is Mobile or not
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        isCurrentDeviceMobile = true;
+        isHandlerAvailable = false
+    }else{
+        isCurrentDeviceMobile = false;
+    }
+
+    //Check if browser is IE or not
+    if (navigator.userAgent.search("MSIE") >= 0) {
+        setOldMousePosTimer = 100;
+        myBrowser = 'ie';
+    }
+    //Check if browser is Chrome or not
+    else if (navigator.userAgent.search("Chrome") >= 0) {
+        myBrowser = 'chrome';
+    }
+    //Check if browser is Firefox or not
+    else if (navigator.userAgent.search("Firefox") >= 0) {
+        myBrowser  = 'fireFox';
+    }
+    //Check if browser is Safari or not
+    else if (navigator.userAgent.search("Safari") >= 0 && navigator.userAgent.search("Chrome") < 0) {
+        myBrowser = 'safari';
+    }
+    //Check if browser is Opera or not
+    else if (navigator.userAgent.search("Opera") >= 0) {
+        myBrowser = 'opera';
+    }
+    else{
+        setOldMousePosTimer = 1500;
+        myBrowser = 'ie';
+    }
+
+
+    $(document).ready(function() {
+        //Get exitHandler available after 1sec to make  sure VWO variables are ready
+        setTimeout(function(){
+            isHandlerAvailable = true;
+        }, 1000);
+
+        //default
+        if(typeof(specialOfferPOPage) == 'undefined' && currentEncDiscId == ''){
+            exitPaths = {
+                "urls":{
+                    "/site/wsfy-purchase.view":                   currentHostName + "/site/wsfy-purchase.view?encDiscId="           + (typeof(encDiscId) != 'undefined' ? encDiscId : 'G96iaXffBXE*') + "&ifHeight=" + currentIframeHeight,
+                    "/site/bgc-purchase.view" :                   currentHostName + "/site/bgc-purchase.view?encDiscId="            + (typeof(encDiscId) != 'undefined' ? encDiscId : 'G96iaXffBXE*') + "&ifHeight=" + currentIframeHeight,
+                    "/site/bgc-test-purchase.view" :              currentHostName + "/site/bgc-test-purchase.view?encDiscId="       + (typeof(encDiscId) != 'undefined' ? encDiscId : 'G96iaXffBXE*') + "&ifHeight=" + currentIframeHeight,
+                    "/site/idp-bgc-purchase.view" :               currentHostName + "/site/idp-bgc-purchase.view?encDiscId="        + (typeof(encDiscId) != 'undefined' ? encDiscId : 'G96iaXffBXE*') + "&ifHeight=" + currentIframeHeight,
+                    "/site/idp-bgc-test-purchase.view" :          currentHostName + "/site/idp-bgc-test-purchase.view?encDiscId="   + (typeof(encDiscId) != 'undefined' ? encDiscId : 'G96iaXffBXE*') + "&ifHeight=" + currentIframeHeight,
+                    "/site/prr-purchase.view" :                   currentHostName + "/site/prr-purchase.view?encDiscId="            + (typeof(encDiscId) != 'undefined' ? encDiscId : 'G96iaXffBXE*') + "&ifHeight=" + currentIframeHeight,
+                    "/site/dating-purchase.view":                 currentHostName + "/site/dating-purchase.view?encDiscId="         + (typeof(encDiscId) != 'undefined' ? encDiscId : 'G96iaXffBXE*') + "&ifHeight=" + currentIframeHeight,
+
+                    "/site/dupemail-wsfy-purchase.pubview":                   currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1004&whySub=PRR&pageName=wsfy-purchase&ifHeight="      + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-bgc-purchase.pubview" :                   currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1002&whySub=PS&pageName=bgc-purchase&ifHeight="        + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-bgc-test-purchase.pubview" :              currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1002&whySub=PS&pageName=bgc-purchase&ifHeight="        + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-idp-bgc-purchase.pubview" :               currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1004&whySub=PRR&pageName=idp-bgc-purchase&ifHeight="   + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-idp-bgc-test-purchase.pubview" :          currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1004&whySub=PRR&pageName=idp-bgc-purchase&ifHeight="   + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-prr-purchase.pubview" :                   currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1004&whySub=PRR&pageName=prr-purchase&ifHeight="       + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-dating-purchase.pubview":                 currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1002&whySub=PS&pageName=dating-purchase&ifHeight="     + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+
+                    "/pub-data-search-and-validation.pubview" :               (currentIsLoggedin != 'true' ? currentHostName + "/site/ob/init/ps.pubview?flowId=pub_search_flow18&adl=" +  + "&ifHeight=" + currentIframeHeight + '&' + currentRequestParameters : currentHostName + "/site/bgc-purchase.view" + "?ifHeight=" + currentIframeHeight + '&' + currentRequestParameters),
+
+                    "/site/ob/pub_search_flow11/ps.pubview" :                 currentHostName + "/site/ob/pub_search_flow18/ps.pubview?ifHeight=" +                   currentIframeHeight,
+                    "/site/ob/pub_search_bgc_flow14/ps-bgc.pubview" :         currentHostName + "/site/ob/pub_search_flow18/ps.pubview?ifHeight=" +                   currentIframeHeight,
+                    "/site/ob/pub_identity_flow6/identity-premium.pubview" :  currentHostName + "/site/ob/pub_identity_flow18/identity-premium.pubview?ifHeight=" +   currentIframeHeight,
+                    "/site/ob/pub_prr_flow7/prr.pubview" :                    currentHostName + "/site/ob/pub_identity_flow18/identity-premium.pubview?ifHeight=" +   currentIframeHeight,
+                    "/site/ob/pub_wsfy_flow9/wsfy.pubview" :                  currentHostName + "/site/ob/pub_identity_flow18/identity-premium.pubview?ifHeight=" +   currentIframeHeight,
+                    "/site/ob/pub_search_bgc_flow13/ps-bgc.pubview" :         currentHostName + "/site/ob/pub_search_flow18/ps.pubview?ifHeight=" +                   currentIframeHeight,
+                    "/site/ob/pub_search_bgc_flow22/ps.pubview" :         	  currentHostName + "/site/ob/pub_search_flow19/ps.pubview?ifHeight=" +                   currentIframeHeight,
+                    "/site/ob/pub_search_bgc_flow23/ps.pubview" :         	  currentHostName + "/site/ob/pub_search_flow19/ps.pubview?ifHeight=" +                   currentIframeHeight,
+
+
+                    "/site/ob/prr_flow2/prr.view" :                   currentHostName + "/site/prr-purchase.view"        + (typeof(encDiscId) != 'undefined' ? '?encDiscId=' + encDiscId + "&ifHeight=" + currentIframeHeight : "?ifHeight=" + currentIframeHeight),
+                    "/site/ob/wsfy_flow4/wsfy.view" :                 currentHostName + "/site/wsfy-purchase.view"       + (typeof(encDiscId) != 'undefined' ? '?encDiscId=' + encDiscId + "&ifHeight=" + currentIframeHeight : "?ifHeight=" + currentIframeHeight),
+                    "/site/ob/search_bgc_flow15/ps-bgc.view" :        currentHostName + "/site/bgc-purchase.view"        + (typeof(encDiscId) != 'undefined' ? '?encDiscId=' + encDiscId + "&ifHeight=" + currentIframeHeight : "?ifHeight=" + currentIframeHeight),
+                    "/site/ob/search_flow12/ps.view" :                currentHostName + "/site/bgc-purchase.view"        + (typeof(encDiscId) != 'undefined' ? '?encDiscId=' + encDiscId + "&ifHeight=" + currentIframeHeight : "?ifHeight=" + currentIframeHeight),
+                    "/site/ob/identity_flow1/identity-premium.view" : currentHostName + "/site/idp-bgc-purchase.view"    + (typeof(encDiscId) != 'undefined' ? '?encDiscId=' + encDiscId + "&ifHeight=" + currentIframeHeight : "?ifHeight=" + currentIframeHeight),
+                    "/site/ob/search_bgc_flow13/ps-bgc.view" :        currentHostName + "/site/bgc-purchase.view"        + (typeof(encDiscId) != 'undefined' ? '?encDiscId=' + encDiscId + "&ifHeight=" + currentIframeHeight : "?ifHeight=" + currentIframeHeight)
+                }
+            };
+        }
+        else{
+            exitPaths = {
+                "urls":{
+                    "/site/wsfy-purchase.view":                   currentHostName + "/site/special-offer-purchase.view?bundle_id=1004&whySub=PRR&pageName=wsfy-purchase&ifHeight="      + currentIframeHeight + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/bgc-purchase.view" :                   currentHostName + "/site/special-offer-purchase.view?bundle_id=1002&whySub=PS&pageName=bgc-purchase&ifHeight="        + currentIframeHeight + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/bgc-test-purchase.view" :              currentHostName + "/site/special-offer-purchase.view?bundle_id=1002&whySub=PS&pageName=bgc-purchase&ifHeight="        + currentIframeHeight + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/idp-bgc-purchase.view" :               currentHostName + "/site/special-offer-purchase.view?bundle_id=1004&whySub=PRR&pageName=idp-bgc-purchase&ifHeight="   + currentIframeHeight + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/idp-bgc-test-purchase.view" :          currentHostName + "/site/special-offer-purchase.view?bundle_id=1004&whySub=PRR&pageName=idp-bgc-purchase&ifHeight="   + currentIframeHeight + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/prr-purchase.view" :                   currentHostName + "/site/special-offer-purchase.view?bundle_id=1004&whySub=PRR&pageName=prr-purchase&ifHeight="       + currentIframeHeight + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dating-purchase.view":                 currentHostName + "/site/special-offer-purchase.view?bundle_id=1002&whySub=PS&pageName=dating-purchase&ifHeight="     + currentIframeHeight + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+
+                    "/site/dupemail-wsfy-purchase.pubview":                   currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1004&whySub=PRR&pageName=wsfy-purchase&ifHeight="      + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-bgc-purchase.pubview" :                   currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1002&whySub=PS&pageName=bgc-purchase&ifHeight="        + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-bgc-test-purchase.pubview" :              currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1002&whySub=PS&pageName=bgc-purchase&ifHeight="        + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-idp-bgc-purchase.pubview" :               currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1004&whySub=PRR&pageName=idp-bgc-purchase&ifHeight="   + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-idp-bgc-test-purchase.pubview" :          currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1004&whySub=PRR&pageName=idp-bgc-purchase&ifHeight="   + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-prr-purchase.pubview" :                   currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1004&whySub=PRR&pageName=prr-purchase&ifHeight="       + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+                    "/site/dupemail-dating-purchase.pubview":                 currentHostName + "/site/dupemail-special-offer-purchase.pubview?bundle_id=1002&whySub=PS&pageName=dating-purchase&ifHeight="     + currentIframeHeight + '&e=' + '' + ($('a.exit-handler').length > 0 ? '&lnk=' + currentHostName + $('a.exit-handler').attr('href') + '&cp=' + encodeURIComponent($('a.exit-handler').text()) + '&reLink=true' : ''),
+
+                    "/pub-data-search-and-validation.pubview" :               (currentIsLoggedin != 'true' ? currentHostName + "/site/ob/init/ps.pubview?flowId=pub_search_flow18&adl=" +  + "&ifHeight=" + currentIframeHeight + '&' + currentRequestParameters : currentHostName + "/site/bgc-purchase.view" + "?ifHeight=" + currentIframeHeight + '&' + currentRequestParameters),
+
+                    "/site/ob/pub_search_flow11/ps.pubview" :                 currentHostName + "/site/ob/pub_search_flow18/ps.pubview?ifHeight=" +                   currentIframeHeight,
+                    "/site/ob/pub_search_bgc_flow14/ps-bgc.pubview" :         currentHostName + "/site/ob/pub_search_flow18/ps.pubview?ifHeight=" +                   currentIframeHeight,
+                    "/site/ob/pub_identity_flow6/identity-premium.pubview" :  currentHostName + "/site/ob/pub_identity_flow18/identity-premium.pubview?ifHeight=" +   currentIframeHeight,
+                    "/site/ob/pub_prr_flow7/prr.pubview" :                    currentHostName + "/site/ob/pub_identity_flow18/identity-premium.pubview?ifHeight=" +   currentIframeHeight,
+                    "/site/ob/pub_wsfy_flow9/wsfy.pubview" :                  currentHostName + "/site/ob/pub_identity_flow18/identity-premium.pubview?ifHeight=" +   currentIframeHeight,
+                    "/site/ob/pub_search_bgc_flow13/ps-bgc.pubview" :         currentHostName + "/site/ob/pub_search_flow18/ps.pubview?ifHeight=" +                   currentIframeHeight,
+                    "/site/ob/pub_search_bgc_flow22/ps.pubview" :         	  currentHostName + "/site/ob/pub_search_flow19/ps.pubview?ifHeight=" +                   currentIframeHeight,
+                    "/site/ob/pub_search_bgc_flow23/ps.pubview" :         	  currentHostName + "/site/ob/pub_search_flow19/ps.pubview?ifHeight=" +                   currentIframeHeight,
+
+                    "/site/ob/prr_flow2/prr.view" :                   currentHostName + "/site/prr-purchase.view?ifHeight=" +     currentIframeHeight + '&' + currentRequestParameters,
+                    "/site/ob/wsfy_flow4/wsfy.view" :                 currentHostName + "/site/wsfy-purchase.view?ifHeight=" +    currentIframeHeight + '&' + currentRequestParameters,
+                    "/site/ob/search_bgc_flow15/ps-bgc.view" :        currentHostName + "/site/bgc-purchase.view?ifHeight=" +     currentIframeHeight + '&' + currentRequestParameters,
+                    "/site/ob/search_flow12/ps.view" :                currentHostName + "/site/bgc-purchase.view?ifHeight=" +     currentIframeHeight + '&' + currentRequestParameters,
+                    "/site/ob/identity_flow1/identity-premium.view" : currentHostName + "/site/idp-bgc-purchase.view?ifHeight=" + currentIframeHeight + '&' + currentRequestParameters,
+                    "/site/ob/search_bgc_flow13/ps-bgc.view" :        currentHostName + "/site/bgc-purchase.view?ifHeight=" +     currentIframeHeight + '&' + currentRequestParameters
+                }
+            };
+        }
+
+        //disable exit-handler for mobile and tablet
+        if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && typeof exitPaths.urls[currentRequestUri] != 'undefined' && duplicateCurrentPage == false) {
+            var exitHandlerSource = exitPaths.urls[currentRequestUri].replace(/\s/g,"%20");
+            if( exitPaths.urls[currentRequestUri].indexOf('bgc-purchase.view') > -1 && true){
+                iframe.attr('src', exitHandlerSource);
+            }
+            else if( exitPaths.urls[currentRequestUri].indexOf('idp-bgc-purchase.view') > -1 && true){
+                iframe.attr('src', exitHandlerSource);
+            }
+            else if( exitPaths.urls[currentRequestUri].indexOf('wsfy-purchase.view') > -1 && true){
+                iframe.attr('src', exitHandlerSource);
+            }
+            else if( exitPaths.urls[currentRequestUri].indexOf('special-offer-purchase') > -1 && true){
+                iframe.attr('src', exitHandlerSource);
+            }
+            else{
+                $.get(exitHandlerSource, function(data) {
+                    var ifrm = document.getElementById('exit-handler-iframe');
+                    ifrm = ifrm.contentWindow || ifrm.contentDocument.document || ifrm.contentDocument;
+                    ifrm.document.open();
+                    ifrm.document.write(data);
+                    ifrm.document.close();
+                });
+            }
+            iframe.css('height',currentIframeHeight);
+
+            setInterval(function(){
+                oldMousePos.x = currentMousePos.x;
+                oldMousePos.y = currentMousePos.y;
+            }, setOldMousePosTimer);
+        }
+        
+        if(getCookie(currentIdpBgcPurchase) == '2'){
+            if(currentRequestUri == '/site/idp-bgc-purchase.view'){
+              isHandlerAvailable = false;
+            }
+        }
+
+        
+        if(getCookie(currentBgcPurchase) == '2'){
+            if(currentRequestUri == '/site/bgc-purchase.view'){
+              isHandlerAvailable = false;
+            }
+        }
+    });
+
+
+    $(window).on('unload', function(){
+        setTimeout(function() {
+            if(typeof exitPaths.urls[currentRequestUri] != 'undefined' && isHandlerAvailable){
+                isHandlerAvailable = false;
+                iframe.removeClass('hidden');
+                $('body').css('overflow-y','hidden');
+                window.scrollTo(0,0);
+                $(window).unbind('beforeunload');
+                $(window).unbind('unload');
+                if(!isCurrentDeviceMobile){
+                    setTimeout(function() {
+                        setTimeout(function() {
+                            isHandlerAvailable = true;
+                            window.parent.isHandlerAvailable = false;
+                        }, 1000);
+                    },1);
+                    return 'Click on Stay for a MyLife Special Offer!';
+                }
+            }
+        },500);
+    });
+
+//    $(window).on('beforeunload', function(){
+//        if(typeof exitPaths.urls[currentRequestUri] != 'undefined' && isHandlerAvailable){
+//            isHandlerAvailable = false;
+//            iframe.removeClass('hidden');
+//            $('body').css('overflow-y','hidden');
+//            window.scrollTo(0,0);
+//            $(window).unbind('beforeunload');
+//            $(window).unbind('unload');
+//            if(!isCurrentDeviceMobile){
+//                setTimeout(function() {
+//                    setTimeout(function() {
+//                        isHandlerAvailable = true;
+//                        window.parent.isHandlerAvailable = false;
+//                    }, 1000);
+//                },1);
+//                return 'Click on Stay for a MyLife Special Offer!';
+//            }
+//        }
+//    });
+
+    function showExitHandlerIframe() {
+
+
+
+        if(typeof exitPaths.urls[currentRequestUri] != 'undefined' && isHandlerAvailable) {
+
+            var postPageName = "|Logged Out";
+            if (currentIsLoggedin == 'true' || currentIsLoggedin == true) {
+                postPageName = "|Logged In";
+            }
+            var flowNo = "0";
+            var strUrl = $(location).attr("href");
+
+            if (strUrl.indexOf("flow") > -1) {
+
+                var pageNameExit = "";
+                var indexLastSlash = strUrl.lastIndexOf("/");
+                if (indexLastSlash > 0) {
+
+                    flowNo = strUrl.substring(indexLastSlash - 2, indexLastSlash);
+                    if (isNaN(flowNo)) {
+                        flowNo = strUrl.substring(indexLastSlash - 1, indexLastSlash);
+                        if (isNaN(flowNo)) {
+                            flowNo = strUrl;
+                        }
+                    }
+                }
+                if ($('body').hasClass('pub-search-onboarding')) {
+                    pageNameExit = "PS|Slide 10|Flow " + flowNo + postPageName;
+                } else {
+                    var onboardingType = "ID";
+                    if(strUrl.indexOf("wsfy.view") > -1) {
+                        onboardingType = "WSFY";
+                    }else if(strUrl.indexOf("prr.view") > -1){
+                        onboardingType = "PRR";
+                    }
+                    if (currentIsLoggedin == 'true' || currentIsLoggedin == true) {
+                        pageNameExit = onboardingType + " PO|" + postPageName;
+                    } else {
+                        pageNameExit = onboardingType + "|Slide 7|Flow " + flowNo + postPageName;
+                    }
+                }
+                dataLayer.push({
+                    'event': 'virtualPageView',
+                    //'virtualPageTitle': "PS|Slide 10|Flow " + flowNo + postPageName,
+                    'virtualPageTitle': pageNameExit
+                });
+            }
+        }
+            if(typeof exitPaths.urls[currentRequestUri] != 'undefined' && isHandlerAvailable){
+
+
+                isHandlerAvailable = false;
+                iframe.removeClass('hidden');
+                $('body').css('overflow-y','hidden');
+                window.scrollTo(0,0);
+                $(window).unbind('beforeunload');
+                $(window).unbind('unload');
+                if(!isCurrentDeviceMobile){
+                    setTimeout(function() {
+                        setTimeout(function() {
+                            isHandlerAvailable = true;
+                            window.parent.isHandlerAvailable = false;
+                        }, 1000);
+                    },1);
+                    return 'Click on Stay for a MyLife Special Offer!';
+                }
+            }
+
+
+	}
+
+	$( window ).resize(function() {
+	iframe.css('height',window.innerHeight);
+	});
+
+    $(document).mousemove(function(event) {
+        currentMousePos.x = event.pageX;
+        currentMousePos.y = event.pageY;
+    });
+
+    $(document).mouseenter(function (event) {
+        mouseleft = false;
+    });
+
+    $(document).mouseleave(function (event) {
+        mouseleft = true;
+        exitDetector();
+    });
+
+    $(document).on('click','a, button, input',function(e){
+        if($(this).hasClass('exit-handler')){
+            if(typeof exitPaths.urls[currentRequestUri] != 'undefined'){
+                if(typeof $(this).attr('href') != 'undefined'){
+                    e.preventDefault();
+                    isHandlerAvailable = false;
+                    window.parent.isHandlerAvailable = false;
+                    iframe.remove();
+                    window.parent.parent.location.href = currentHostName + $(this).attr('href').replace(currentHostName,'');
+                }
+                else{
+                    isHandlerAvailable = false;
+                    window.parent.isHandlerAvailable = false;
+                    iframe.remove();
+                }
+            }
+        }
+        else if($(this).hasClass('exit-handler-x-btn')){
+            e.preventDefault();
+            isHandlerAvailable = false;
+            window.parent.isHandlerAvailable = false;
+            iframe.remove();
+            var redirectLink = exitPaths.urls[currentRequestUri]
+            if(redirectLink.indexOf('?') > -1){
+                redirectLink += '&lnk=' + currentHostName + $(this).attr('href') + '&cp=' + $(this).text() + '&reLink=true';
+            }
+            else{
+                redirectLink += '?lnk=' + currentHostName + $(this).attr('href') + '&cp=' + $(this).text() + '&reLink=true';
+            }
+            window.location.href = redirectLink;
+        }
+        else{
+            //iframe.remove();
+        }
+    });
+
+    $(document).on('click','.exit-handler-logo',function(e){
+        if(typeof exitPaths.urls[currentRequestUri] != 'undefined'){
+            e.preventDefault();
+            isHandlerAvailable = false;
+            window.parent.isHandlerAvailable = false;
+            window.parent.location.href = currentHostName + $(this).attr('href');
+        }
+    });
+
+
+    function exitDetector(){
+        if( currentMousePos.y < oldMousePos.y && oldMousePos.y - currentMousePos.y > 10  && (currentMousePos.y <= (window.scrollY + 100) || currentMousePos.y <= (document.documentElement.scrollTop + 100)) && currentMousePos.x < ($(window).width() - 50) && currentMousePos.x > 50){
+            showExitHandlerIframe();
+        }
+    }
+
+    function PopupCenter(url, title, w, h){
+        var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+        var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+        var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+        var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+        var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+        var top = ((height / 2) - (h / 2)) + dualScreenTop;
+        var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+
+        // Puts focus on the newWindow
+        if (window.focus) {
+            newWindow.focus();
+        }
+
+        return newWindow;
+    }
+</script>
+        
+    
+
+    <script>
+        findDeviceType();
+    </script>
+
+    
+    
+        <!-- Start Visual Website Optimizer Asynchronous Code -->
+<script type="text/javascript">
+var _vwo_code=(function(){
+var account_id=248150,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script>
+<!-- End Visual Website Optimizer Asynchronous Code -->
+    
+    <!-- Omniture -->
+    <script type="text/javascript" id="">var WindowEvent;(function(a){a[a.Load="load"]="Load";a[a.BeforeUnload="beforeunload"]="BeforeUnload";a[a.Abort="abort"]="Abort";a[a.Error="error"]="Error"})(WindowEvent||(WindowEvent={}));
+var AjaxTiming=function(){function a(c,b,a,k){var d=this;this.getPerformanceTimings=function(b){d.connect=b.connectEnd-b.connectStart;d.dns=b.domainLookupEnd-b.domainLookupStart;d.duration=b.duration;d.load=b.responseEnd-b.responseStart;d.wait=b.responseStart-b.requestStart;d.start=b.startTime;d.redirect=b.redirectEnd-b.redirectStart;b.secureConnectionStart&&(d.ssl=b.connectEnd-b.secureConnectionStart)};this.url=c;this.method=b;this.isAsync=a;this.open=k}return a}(),ProfilerJsError=function(){function a(c,
+b,a){this.count=0;this.message=c;this.url=b;this.lineNumber=a}return a.createText=function(c,b,a){return[c,b,a].join(":")},a.prototype.getText=function(){return a.createText(this.message,this.url,this.lineNumber)},a}(),ProfilerEventManager=function(){function a(){this.events=[];this.hasAttachEvent=!!window.attachEvent}return a.prototype.add=function(a,b,f){this.events.push({type:a,target:b,func:f});this.hasAttachEvent?b.attachEvent("on"+a,f):b.addEventListener(a,f,!1)},a.prototype.clear=function(){for(var a,
+b=0,f=this.events;b<f.length;b++)a=f[b],this.hasAttachEvent?a.target.detachEvent(a.type,a.func):a.target.removeEventListener(a.type,a.func,!1);this.events=[]},a}(),RProfiler=function(){function a(){function a(b){b=b.target||b.srcElement;return 3==b.nodeType&&(b=b.parentNode),k("N/A",b.src||b.URL,-1),!1}var b=this,f;this.restUrl="g.3gl.net/jp/344/v3/M";this.startTime=(new Date).getTime();this.version=2;this.info={};this.hasInsight=!1;this.data={start:this.startTime,jsCount:0,jsErrors:[],loadTime:-1,
+loadFired:!1,ajax:[]};this.eventManager=new ProfilerEventManager;this.startAjaxCapture=function(){var a=XMLHttpRequest.prototype,d=a.open,c=a.send,f=[],g={},h=b.data.ajax,k=25,n="object"==typeof performance&&"function"==typeof window.performance.now&&"function"==typeof window.performance.getEntriesByType;n&&"function"==typeof window.performance.setResourceTimingBufferSize&&window.performance.setResourceTimingBufferSize(300);var m=function(){return n?window.performance.now():(new Date).getTime()};
+a.open=function(b,a,c,g,e){void 0===c&&(c=!0);this.rpIndex=f.length;f.push(new AjaxTiming(a,b,c,m()));d.call(this,b,a,c,g,e)};a.send=function(b){var a=this,d=this.onreadystatechange,e;(this.onreadystatechange=function(b){var c=f[a.rpIndex];if(c){var e=a.readyState;switch(e){case 1:c.connectionEstablished=m();break;case 2:c.requestReceived=m();break;case 3:c.processingTime=m();break;case 4:c.complete=m();e=!(!a.response||null==a.response||void 0==a.response);switch(a.responseType){case "text":case "":"string"==
+typeof a.responseText&&(c.responseSize=a.responseText.length);break;case "json":e&&"function"==typeof a.response.toString&&(c.responseSize=a.response.toString().length);break;case "arraybuffer":e&&"number"==typeof a.response.byteLength&&(c.responseSize=a.response.byteLength);break;case "blob":e&&"number"==typeof a.response.size&&(c.responseSize=a.response.size)}(function(b){setTimeout(function(){var a,c;if(n){var d=b.url,e=[];var f=performance.getEntriesByType("resource");for(a=0;a<f.length;a++){var l=
+f[a];l.name==d&&e.push(l)}if(h.push(b),0!=e.length)if(g[d]||(g[d]=[]),1==e.length)b.getPerformanceTimings(e[0]),g[d].push(0);else{a=g[d];for(c in e)if(-1==a.indexOf(c)){b.getPerformanceTimings(e[c]);a.push(c);return}b.getPerformanceTimings(e[0])}}},k)})(c,h)}"function"==typeof d&&d.call(a,b)}},e=f[this.rpIndex],e)&&(b&&!isNaN(b.length)&&(e.sendSize=b.length),e.send=m(),c.call(this,b))}};this.recordPageLoad=function(){b.data.loadTime=(new Date).getTime();b.data.loadFired=!0};this.addError=function(a,
+c,d){var e,f;b.data.jsCount++;var g=ProfilerJsError.createText(a,c,d);var h=b.data.jsErrors;var l=0;for(e=h;l<e.length;l++)if(f=e[l],f.getText()==g){f.count++;return}h.push(new ProfilerJsError(a,c,d))};this.addInfo=function(a,c,d){if(!b.isNullOrEmpty(a)){if(b.isNullOrEmpty(d))b.info[a]=c;else{if(b.isNullOrEmpty(c))return;b.isNullOrEmpty(b.info[a])&&(b.info[a]={});b.info[a][c]=d}b.hasInsight=!0}};this.clearInfo=function(){b.info={};b.hasInsight=!1};this.getInfo=function(){return b.hasInsight?b.info:
+null};this.eventManager.add(WindowEvent.Load,window,this.recordPageLoad);var k=this.addError;this.startAjaxCapture();window.opera?this.eventManager.add(WindowEvent.Error,document,a):"onerror"in window&&(f=window.onerror,window.onerror=function(a,b,c){return(k(a,b,c),f)?f(a,b,c):!1});!window.__cpCdnPath||(this.restUrl=window.__cpCdnPath.trim());var d=document.createElement("iframe");var g=d.style;g.position="absolute";g.top="-10000px";g.left="-1000px";g=document.getElementsByTagName("script")[0];g.parentNode.insertBefore(d,
+g);d=d.contentWindow.document.open("text/html","replace");g=window.location.protocol+"//";var h='\x3cbody onload\x3d"',h=h+"function s(u){var d\x3ddocument,s\x3dd.createElement('script');s.type\x3d'text/javascript';s.src\x3du;d.body.appendChild(s);}",h=h+("s('"+g+this.restUrl+"');"),h=h+'"\x3e\x3c/body\x3e';d.write(h);d.close()}return a.prototype.isNullOrEmpty=function(a){return void 0===a||null===a?!0:"string"==typeof a?0==a.trim().length:!1},a.prototype.dispatchCustomEvent=function(a){(function(a){function b(a,
+b){b=b||{bubbles:!1,cancelable:!1,detail:void 0};var c=document.createEvent("CustomEvent");return c.initCustomEvent(a,b.bubbles,b.cancelable,b.detail),c}if("function"==typeof a.CustomEvent)return!1;b.prototype=Event.prototype;a.CustomEvent=b})(window);a=new CustomEvent(a);window.dispatchEvent(a)},a}(),profiler=new RProfiler;window.RProfiler=profiler;window.WindowEvent=WindowEvent;profiler.dispatchCustomEvent("GlimpseLoaded");</script></body></html>
