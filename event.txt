@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>SiteSucker Bookmarklet</title>
+	<link href="../../common/style.css" rel="styleSheet" type="text/css">
+	<link href="../../common/style_iphone.css" rel="styleSheet" type="text/css">
+    <script type="text/javascript">
+        window.addEventListener("load", function(){window.scrollTo(0,1)});
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>SiteSucker Bookmarklet</h1>
+        <div class="group">
+            <p>
+				These instructions will help you make a handy bookmarklet that you can use to send links from Safari to SiteSucker.
+            </p>
+        </div>
+        
+        <h1>Step 1: Bookmark This Page</h1>
+        <div class="group">
+            <p>
+				Tap <img class="inlineGraphic" src="../../common/IL_Action.png" alt="share button"> at the bottom of the screen and then tap <strong>Add Bookmark</strong>.
+            </p>
+            <div class="figure">
+                <img src="action.png" alt="add bookmark">
+            </div>
+            <p>
+				Name your bookmarklet something like "Send to SiteSucker" and then tap <strong>Save</strong>.
+            </p>
+        </div>
+        
+        <h1>Step 2: Edit The Bookmark</h1>
+        <div class="group">
+            <p>
+				Tap <img class="inlineGraphic" src="../../common/IL_Bookmark.png" alt="bookmarks button"> at the bottom of the screen.
+            </p>
+            <div class="figure">
+                <img src="bookmark.png" alt="open bookmarks">
+            </div>
+            <p>
+                Tap <strong>Edit</strong> and then tap on the bookmark that you just added.
+            </p>
+            <p>
+				You now need to modify the bookmark URL. Tap the URL field (it begins with "http:"), then remove all the text before the word "javascript". Position the cursor right before the "j" as shown below, then delete all the text to the left.
+            </p>
+            <div class="figure">
+                <img src="edit.png" alt="edit bookmark start">
+            </div>
+            <p>
+				Alternatively, the Pasteboard should be holding the javascript command, so tap, hold, and release the URL field, tap the <strong>Select All</strong> menu item, and then tap the <strong>Paste</strong> menu item.
+            </p>
+            <p>
+				The modified URL should look like this:
+            </p>
+            <div class="figure">
+                <img src="done.png" alt="edit bookmark finish">
+            </div>
+            <p>
+	            When you are finished editing, tap the <strong>Done</strong> button on the keyboard. To close the <strong>Bookmarks</strong> screen, tap the <strong>Done</strong> button and then tap the <strong>Done</strong> button again.
+            </p>
+        </div>
+        
+        <h1>Step 3: Use The Bookmarklet</h1>
+        <div class="group">
+            <p>
+				To download a site while surfing the web, just tap <img class="inlineGraphic" src="../../common/IL_Bookmark.png" alt="bookmarks button">, then tap <strong>Send to SiteSucker</strong>. The current URL will be sent to SiteSucker, which will automatically download the site.
+            </p>
+            <div class="figure">
+                <img src="use.png" alt="use bookmark">
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
